@@ -1,14 +1,18 @@
 {
-    "name": "willdurand/js-translation-bundle",
+    "name": "betoobe6/js-translation-bundle",
     "description": "A pretty nice way to expose your translation messages to your JavaScript.",
-    "keywords": [ "translation", "javascript", "symfony" ],
+    "keywords": [
+        "translation",
+        "javascript",
+        "symfony"
+    ],
     "type": "symfony-bundle",
     "license": "MIT",
     "authors": [
         {
-        "name": "William Durand",
-        "email": "will+git@drnd.me"
-    }
+            "name": "William Durand",
+            "email": "will+git@drnd.me"
+        }
     ],
     "require": {
         "php": ">=7.2.5",
@@ -16,7 +20,7 @@
         "symfony/finder": "~4.4|~5.0|~6.0|~7.0",
         "symfony/console": "~4.4|~5.0|~6.0|~7.0",
         "symfony/intl": "~4.4|~5.0|~6.0|~7.0",
-        "symfony/translation":  "~4.4|~5.0|~6.0|~7.0",
+        "symfony/translation": "~4.4|~5.0|~6.0|~7.0",
         "symfony/twig-bundle": "~4.4|~5.0|~6.0|~7.0"
     },
     "require-dev": {
@@ -28,10 +32,12 @@
         "phpunit/phpunit": "^4.8|~5.7|~6.5|~8"
     },
     "replace": {
-        "willdurand/expose-translation-bundle": "2.5.*"
+        "willdurand/js-translation-bundle": "6.0.0"
     },
     "autoload": {
-        "psr-4": { "Bazinga\\Bundle\\JsTranslationBundle\\": "" }
+        "psr-4": {
+            "Bazinga\\Bundle\\JsTranslationBundle\\": ""
+        }
     },
     "extra": {
         "branch-alias": {
